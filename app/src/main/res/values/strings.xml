@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="main">Главная</string>
+    <string name="settings">Настройки</string>
+    <string name="increment">Инкремент</string>
+    <string name="maximum">Предельное значение</string>
+    <string name="clear">Обнулить счетчик</string>
+</resources>

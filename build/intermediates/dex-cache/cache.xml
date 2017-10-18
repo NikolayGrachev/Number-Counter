@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/a282ffdc381d1cad2994e2dc09e44795fb39fb6e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="bb43b5199a1065f0f0581ebce14b46b99b9c20f9">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d3329128bacebc86ae21ad8d69286a0b7252096a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.gradle/caches/modules-2/files-2.1/com.google.dagger/dagger/2.11/95037eaee68aa48021511972e9db9ba29916e1c9/dagger-2.11.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="95037eaee68aa48021511972e9db9ba29916e1c9">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/dagger-2.11_d77d47936f1137229aaacc5709fd4bbe833a7a60/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/97e2e5d798ba65800e80bbbbae53efb5141e1a6a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c9d0866780279a3ad22052ac35d18eeb0474a770">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_53d606af315a1c6bf424022e208740c789f65910/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/767418e4ab689a62e7b56b2476cbb5cf9c75253b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9ffb90ac24349d7d893e3172a2219afa06bdff9a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/ab7db2012a7abe8c491ff5dd5c36f68fd040ac10/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="8bc45ce1f63d1a391fd38b32a201be5a42f9c95d">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_130c66e91f9ac082b6b5025804cd6fd7850eb79f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/7d3065fbf96551f67224a621ef765f2c31d6c5bd/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="53a420cd4f49274db6bd43475f8006ba67ef6bbd">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_eca0e9dad09790f67aff07fad445fcb0cb69673f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/989b7aa367e71ad431aecc0ba266a624158de66c/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="665d21a8a069c96b4d9e8b434f5096d865b4e261">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_cd28e4dc767ed17436a3e13519cdc4c165211945/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/731612082c264e01cc00c5628d6798974e41af4f/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ee5faf4dee5b6a4364bf51587871047dde7c703a">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_a53284df91f67bc5a43b06e73b4b4084d8f22d2e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/36dcb71355c17622f516e2596271ded4c5da8ac0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="7521486d9bfd2cd9e756e0cf75ed7d97f2ce2d3b">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_58a5c404044e41571eebb60801f5757a3c1fb19b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/a93e15a375f59dff3fde0edb601ff9627eb2214d/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="4ccbcda5c72027c7f7c14be9ff8640d9cb0d8da0">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_ac72a49b03aaf93c4fb4322b64dafc739568a0e6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/989b7aa367e71ad431aecc0ba266a624158de66c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="76fb65a4b41ea42dab8a1310ed772a2420c96b52">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_fba338b6da665588961c16ca29e096f214cbf6a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/fde5c5daef75e54a4df87af3ee4386edb06842e8/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_cf7bfc4cee6fb9dfabb4f8b39fccc44d11477b3c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/a93e15a375f59dff3fde0edb601ff9627eb2214d/output/jars/libs/internal_impl-25.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3b61a70884adaf0be3fc06c70c801e3e6df13133">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.0_604915b1130353f2e9758d80cb3ad272f674a353/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.gradle/caches/modules-2/files-2.1/javax.inject/javax.inject/1/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/javax.inject-1_44cabf4737822b2eafc3ca477e8a76e64c2c28da/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/1629a3a2bdfa6f0d6a1e30e9602a00b0ab211c2b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f8acaf9f72890a4aa6e8cb5c64053ef91d72c9d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/3e69440e4620d8edd973428a80354927b0fa7427/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="dcac7435781db56e25ab17c3f662227c517fc327">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6a0bb708ad37a8104c9a671a4f6fa479c597c42b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/jsr305-1.3.9_de26840aeeeb66d90b66f73e53595aa18e17ec25/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/526d37f092f138c2c9cb353927ec07ee044d9c88/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5880f5642289dc848767dde117cae073f9fc9952">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_587b5a56b8df41356a51ed04eb9ef3829053f003/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/1819b8dd149b3323ba5b3144a4c8cfa87d01400e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="fba538e4a999351c076639c4febdb49c0b1897f0">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_29a60c8c98e58606e6f260b3ec06c4a9fd7d2094/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.0_91f7d0fcf57159c315a6913ff7f3627dce12082b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="2e974196de5870d0bf1ef079b1d1b03459f1a077">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9b51f32a2fd90fad0b0e9489f6e0b58fd0210d20/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_17c45dde7f4cc55a0ad7f3be82028cdeb24f8550/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.6.0/98476622f10715998eacf9240d6b479f12c66143/okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.6.0_904f37ebe61e8b01568135e615a07a8714a89edf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/e22fb01b715978663049500c8dcb950a11b7e58c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="84c98924eff3106f306c3e233cc2e6d84744f518">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_67d1cc37e39eaccea629399edb45342974d6828f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/82fef0d6f3047c389260948e4ec2cc2a9e1a9d6a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="be587097e648eabfb7f9eca23ab03369894e2d5d">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6c34759232f7b1ff0b6627476a1f527c7c238b97/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.6.0/48efa6f14074e1a6b16e02ac05eba3fc5c7c7ec8/butterknife-annotations-8.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="48efa6f14074e1a6b16e02ac05eba3fc5c7c7ec8">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.6.0_5e99b812e3720e9b410c36b2f0afaa28fb6e938d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/e2bcdbc5fc69fabb311d7b49bad4892e9d4bf0df/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e3c7e8ff9f476d0d93ee7b046fbe8037a2b822c0">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_123e3e4aa281a91e30d10a5275f489b2e4109e33/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/466ff3ca885a67669e20fbe72403eaff9e78e042/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="e03f47f3d1017a093bb3239d4ec47c3447f40744">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_84cb41209b39d56840aa3d6dfe089e0990e41240/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_a762b836050afb8a1fdd3b3723a34b4c3105d5f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/731612082c264e01cc00c5628d6798974e41af4f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="07daa0b6e1d455c82a38422ffe287c18823d339a">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7db6dcd48c55371e5bad0ec97026676c604c20c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/502eb2ade63d836141a8e0cda5faa1ffcb94d3b7/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="21752cbe99942598e0b554b84e79b7c8d6f172f2">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_06fe7687619d011d95cab9e1c4f593261158749f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/e2bcdbc5fc69fabb311d7b49bad4892e9d4bf0df/output/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c07fb99b729345908dda75fadbbf882e300631ff">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.2.1_6349fbf5729c86e970563e5bc56540e5035b9fbc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/e384cd96ea4f3fa6c2461c6aabe51e3d998f1b15/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4d4ddb853b54f94a9641faf1a920f76d562a5150/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.0.2/43eeae0b9fb087bb3194ba59ab63a38a32fbf3e/retrofit-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="043eeae0b9fb087bb3194ba59ab63a38a32fbf3e">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.0.2_7939dfbe6bc17989a46b9434085f78034b53a8cf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/fde5c5daef75e54a4df87af3ee4386edb06842e8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="26674000177e45447a0326a6ad84612761199a13">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5f91440e169244cfc3935ef4257eafd924afb17e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.2.0/f7873a2ebde246a45c2a8d6f3247108b4c88a879/okhttp-3.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.2.0_276f5788769bec286aa2f07d02e6185b6f82fca9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.android/build-cache/29ded352fa91281253646738639616c05173f4a0/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d29714cc76b38157e3cbd034c66e1ec808eb4c19">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_43e3156cdb6019b7388dc959a0f1a8c11b091140/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/nikolaygrachev/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.2/f8d87f15b94b8d74e7ccf61d7eedb558811cdb30/converter-gson-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="/Users/nikolaygrachev/AndroidProjects/TestApplication/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.0.2_11e80fa69e4dd88c89893c69f612294fbc020a18/classes.dex" />
+    </item>
+
+</items>
