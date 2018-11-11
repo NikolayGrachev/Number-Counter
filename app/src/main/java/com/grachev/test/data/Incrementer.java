@@ -1,4 +1,4 @@
-package com.grachev.test.data.incrementer;
+package com.grachev.test.data;
 
 public class Incrementer {
 
@@ -20,7 +20,6 @@ public class Incrementer {
             // при прохождении через максимум
             newNumber = newNumber - maximum;
         }
-
         return newNumber;
     }
 

@@ -1,7 +1,6 @@
 package com.grachev.test.data;
 
 import com.grachev.test.app.dagger.injection.preferences.PreferencesManager;
-import com.grachev.test.data.incrementer.Incrementer;
 import com.grachev.test.presentation.number.NumberContract;
 
 import javax.inject.Inject;
