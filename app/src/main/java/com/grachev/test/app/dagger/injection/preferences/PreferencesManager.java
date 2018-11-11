@@ -12,14 +12,14 @@ import static com.grachev.test.app.utils.Constants.DEFAULT_NUMBER;
  */
 
 public class PreferencesManager {
-    final static String FILE_NAME = "preferences";
+    public final static String FILE_NAME = "preferences";
     final static String PREF_NUMBER = "number";
     final static String PREF_INCREMENT = "increment";
     final static String PREF_MAXIMUM = "maximum";
 
     private SharedPreferences preferences;
 
-    public PreferencesManager(SharedPreferences preferences) {
+    public PreferencesManager (SharedPreferences preferences) {
         this.preferences = preferences;
     }
 
