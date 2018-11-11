@@ -23,7 +23,6 @@ public class PreferencesModule {
         return context.getSharedPreferences(FILE_NAME, 0);
     }
 
-
     @Provides
     @Singleton
     public PreferencesManager providePreferencesManager(SharedPreferences preferences) {

@@ -25,9 +25,12 @@ public class NumberPresenter extends PresenterBase<NumberContract.View>
     // первая инициализация текста
     @Override
     public void viewIsReady() {
-        // начальное значение текста
-        int number = model.getNumberFromPreferences();
-        getView().setNumberText(String.valueOf(number));
+        // инициализируем  начальное значение текста
+        setNumberText();
+    }
+
+    private void setNumberText () {
+        getView().setNumberText(String.valueOf(model.getNumber()));
     }
 
     @Override
@@ -35,34 +38,32 @@ public class NumberPresenter extends PresenterBase<NumberContract.View>
         isTextViewReady = true;
     }
 
-
-
-
     @Override
     public void onClick() {
         // при нажатии на кнопку увеличиваем число на размер инкремента и ждем колбэка
         model.incrementNumber(new NumberModel.NumberChangesCallback() {
             @Override
             public void onChange() {
-                if (isTextViewReady) {
-                    updateNumber();
-                }
+                updateNumber();
+
             }
         });
     }
 
-
     private void updateNumber() {
-        // сейчас вью будет перерисовано
-        isTextViewReady = false;
-        // обновляем textView, если число изменилось
-        getView().setNumberText(String.valueOf(model.getNumber()));
+        // вью будет перерисовано, если оно доступно
+        if (isTextViewReady) {
+            isTextViewReady = false;
+            // обновляем textView, если число изменилось
+            setNumberText();
+        }
+
     }
 
     @Override
     public void storeNumber() {
         // завершение
-        model.storeNumberToPreferences();
+        model.storeNumber();
     }
 
 

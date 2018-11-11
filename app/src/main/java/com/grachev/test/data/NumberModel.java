@@ -1,6 +1,7 @@
 package com.grachev.test.data;
 
 import com.grachev.test.app.dagger.injection.preferences.PreferencesManager;
+import com.grachev.test.data.incrementer.Incrementer;
 import com.grachev.test.presentation.number.NumberContract;
 
 import javax.inject.Inject;
@@ -13,30 +14,26 @@ public class NumberModel implements NumberContract.Model {
 
     // переменная для хранения текущего значения счетчика
     private int number;
-    private int increment;
-    private int maximum;
-
     private PreferencesManager preferences;
+    private Incrementer incrementer;
 
     @Inject
     public NumberModel (PreferencesManager preferences) {
         this.preferences = preferences;
+
+        init();
     }
 
-    @Override
-    public int getNumberFromPreferences() {
+    private void init() {
         // начальная инициализация, читаем сохраненное значение из префс
         number = preferences.getNumber();
 
         // читаем настройки из префс
-        increment = preferences.getIncrement();
-        maximum = preferences.getMaximum();
-
-        return number;
+        incrementer = new Incrementer(preferences.getIncrement(), preferences.getMaximum());
     }
 
     @Override
-    public void storeNumberToPreferences() {
+    public void storeNumber() {
         // сохраняем в префс
         preferences.setNumber(number);
     }
@@ -55,15 +52,7 @@ public class NumberModel implements NumberContract.Model {
     @Override
     public void incrementNumber(NumberChangesCallback callback) {
         // увеличиваем число на инкремент
-        int number = getNumber() + increment;
-
-        if (number>maximum) {
-
-            // сброс числа на ноль, если превышен максимум
-            number = 0;
-        }
-
-        setNumber(number);
+        setNumber(incrementer.calcNumber(number));
 
         // сообщаем об изменениях в презентер
         callback.onChange();

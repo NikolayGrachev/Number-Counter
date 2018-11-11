@@ -4,8 +4,10 @@ import com.grachev.test.app.dagger.injection.preferences.PreferencesManager;
 import com.grachev.test.presentation.main.MainActivityContract;
 import com.grachev.test.presentation.main.MainActivityPresenter;
 import com.grachev.test.data.NumberModel;
+import com.grachev.test.presentation.number.NumberContract;
 import com.grachev.test.presentation.number.NumberPresenter;
 import com.grachev.test.data.SettingsModel;
+import com.grachev.test.presentation.settings.SettingsContract;
 import com.grachev.test.presentation.settings.SettingsPresenter;
 
 import dagger.Module;
@@ -29,29 +31,28 @@ public class MainActivityModule {
         return view;
     }
 
-
     @Provides
-    public MainActivityPresenter provideMainActivityPresenter (MainActivityContract.View view){
+    public MainActivityContract.Presenter provideMainActivityPresenter (MainActivityContract.View view){
         return  new MainActivityPresenter(view);
     }
 
     @Provides
-    public SettingsModel provideSettingsModel(PreferencesManager preferencesManager) {
+    public SettingsContract.Model provideSettingsModel(PreferencesManager preferencesManager) {
         return new SettingsModel(preferencesManager);
     }
 
     @Provides
-    public SettingsPresenter provideSettingsPresenter(SettingsModel model) {
+    public SettingsContract.Presenter provideSettingsPresenter(SettingsModel model) {
         return new SettingsPresenter(model);
     }
 
     @Provides
-    public NumberModel provideNumberModel(PreferencesManager preferencesManager) {
+    public NumberContract.Model provideNumberModel(PreferencesManager preferencesManager) {
         return new NumberModel(preferencesManager);
     }
 
     @Provides
-    public NumberPresenter provideNumbersPresenter(NumberModel model) {
+    public NumberContract.Presenter provideNumbersPresenter(NumberModel model) {
         return new NumberPresenter(model);
     }
 

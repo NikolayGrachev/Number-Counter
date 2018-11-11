@@ -18,7 +18,6 @@ public class SettingsModel implements SettingsContract.Model {
         this.preferences = preferences;
     }
 
-
     @Override
     public void setIncrement(int increment) {
         preferences.setIncrement(increment);

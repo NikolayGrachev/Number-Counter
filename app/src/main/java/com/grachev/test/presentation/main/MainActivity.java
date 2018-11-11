@@ -42,8 +42,6 @@ public class MainActivity extends BaseActivity implements MainActivityContract.V
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
         // при смене ориенации экрана
         int fragmentId;
         if (savedInstanceState != null) {
@@ -58,8 +56,6 @@ public class MainActivity extends BaseActivity implements MainActivityContract.V
     @Override
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-
-
 
         android.support.v4.app.Fragment f = MainActivity.this.getSupportFragmentManager().findFragmentByTag(TAG_FRAGMENT_NUMBER);
         if (f instanceof NumberFragment) {

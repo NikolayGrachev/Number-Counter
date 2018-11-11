@@ -18,10 +18,7 @@ public interface NumberContract {
         void storeNumber();
     }
     interface Model {
-
-        int getNumberFromPreferences();
-        void storeNumberToPreferences();
-
+        void storeNumber();
         int getNumber();
         void setNumber(int number);
 
