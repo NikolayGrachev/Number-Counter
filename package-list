@@ -1,0 +1,11 @@
+com.grachev.test
+com.grachev.test.app.dagger.app
+com.grachev.test.app.dagger.injection.main
+com.grachev.test.app.dagger.injection.preferences
+com.grachev.test.app.utils
+com.grachev.test.data
+com.grachev.test.presentation.common.base_views
+com.grachev.test.presentation.common.mvp
+com.grachev.test.presentation.main
+com.grachev.test.presentation.number
+com.grachev.test.presentation.settings

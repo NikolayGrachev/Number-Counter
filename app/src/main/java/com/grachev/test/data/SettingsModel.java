@@ -6,11 +6,13 @@ import com.grachev.test.presentation.settings.SettingsContract;
 import javax.inject.Inject;
 
 /**
- * Created by Nick on 20.07.2017.
+ * Модель данных для SettingsFragment
  */
-
 public class SettingsModel implements SettingsContract.Model {
 
+    /**
+     * Хэлпер работы с SharedPreferences
+     */
     private PreferencesManager preferences;
 
     @Inject
@@ -18,29 +20,47 @@ public class SettingsModel implements SettingsContract.Model {
         this.preferences = preferences;
     }
 
+    /**
+     * Записываем инкремент
+     * @param increment
+     */
     @Override
     public void setIncrement(int increment) {
         preferences.setIncrement(increment);
     }
 
+    /**
+     * получаем инкремент
+     * @return
+     */
     @Override
     public int getIncrement() {
         return preferences.getIncrement();
     }
 
+    /**
+     * записываем максимум
+     * @param maximum
+     */
     @Override
     public void setMaximum(int maximum) {
         preferences.setMaximum(maximum);
     }
 
 
+    /**
+     * получаем максимум
+     * @return
+     */
     @Override
     public int getMaximum() {
         return preferences.getMaximum();
     }
 
 
-    // обнуление
+    /**
+     * Обнуляем счетчик
+     */
     @Override
     public void resetNumber() {
         preferences.setNumber(0);

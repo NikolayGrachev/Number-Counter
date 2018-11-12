@@ -6,14 +6,21 @@ import com.grachev.test.presentation.number.NumberContract;
 import javax.inject.Inject;
 
 /**
- * Created by Nick on 20.07.2017.
+ * Модель данных для NumberFragment
  */
-
 public class NumberModel implements NumberContract.Model {
 
-    // переменная для хранения текущего значения счетчика
+    /**
+     * Значение счетчика
+     */
     private int number;
+    /**
+     * Хэлпер работы с SharedPreferences
+     */
     private PreferencesManager preferences;
+    /**
+     * Класс для расчетов следующего значения счетчика
+     */
     private Incrementer incrementer;
 
     @Inject
@@ -23,37 +30,48 @@ public class NumberModel implements NumberContract.Model {
         init();
     }
 
+    /**
+     * Начальная инициализация, читаем сохраненное значение из префс
+     * читаем настройки из префс
+     */
     private void init() {
-        // начальная инициализация, читаем сохраненное значение из префс
         number = preferences.getNumber();
-
-        // читаем настройки из префс
         incrementer = new Incrementer(preferences.getIncrement(), preferences.getMaximum());
     }
 
+    /**
+     * сохраняем счетчик в префс (при вызове метода onPause)
+     */
     @Override
     public void storeNumber() {
-        // сохраняем в префс
         preferences.setNumber(number);
     }
 
+    /**
+     * @return значение счетчика
+     */
     @Override
     public int getNumber() {
         return number;
     }
 
+    /**
+     * Изменение текущего значения счетчика
+     * @param number
+     */
     @Override
     public void setNumber(int number) {
         this.number = number;
     }
 
-
+    /**
+     * увеличиваем число на инкремент
+     * и сообщаем об изменениях в презентер
+     * @param callback - колбэк для уведомления фрагмента, что изменения произошли
+     */
     @Override
     public void incrementNumber(NumberChangesCallback callback) {
-        // увеличиваем число на инкремент
         setNumber(incrementer.calcNumber(number));
-
-        // сообщаем об изменениях в презентер
         callback.onChange();
     }
 

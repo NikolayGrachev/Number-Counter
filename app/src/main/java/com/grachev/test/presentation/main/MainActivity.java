@@ -50,7 +50,6 @@ public class MainActivity extends BaseActivity implements MainActivityContract.V
         } else {
             init(0);
         }
-
     }
 
     @Override

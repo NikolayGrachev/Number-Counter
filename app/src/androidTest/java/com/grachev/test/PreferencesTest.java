@@ -13,7 +13,6 @@ import org.junit.Test;
 import static com.grachev.test.app.dagger.injection.preferences.PreferencesManager.FILE_NAME;
 import static org.junit.Assert.assertEquals;
 
-
 public class PreferencesTest {
 
     private PreferencesManager preferencesManager;
